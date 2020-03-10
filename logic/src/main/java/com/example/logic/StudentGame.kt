@@ -15,6 +15,13 @@ class StudentGame (columns: Int = 7, rows: Int = 10) : GameInterface {
     var playerTurn: Int = 1
 
 
+    init {
+        // Place a couple of random tokens to test the user interface
+        //mData[5][5] = 1
+        //mData[6][3] = 2
+        }
+
+
     // Returns the state of the game board at a specified column and row number
 
     override fun getToken(column: Int, row: Int): Int {
