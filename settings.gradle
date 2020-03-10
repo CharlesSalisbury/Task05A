@@ -1,2 +1,2 @@
-include ':app', ':lib', ':testlib'
+include ':app', ':lib', ':testlib', ':logic'
 rootProject.name='Task05A'
